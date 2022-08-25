@@ -1,0 +1,128 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("../picture/back2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+}
+.left img {
+  width: 88px;
+  filter: invert(100%);
+  color: rgb(145, 120, 11);
+}
+.left div {
+  text-align: center;
+  color: rgb(196, 112, 52);
+  line-height: 20px;
+}
+.left {
+  display: inline-block;
+  /* border: 2px solid hotpink; */
+  position: absolute;
+  top: 6px;
+  left: 34px;
+  color: white;
+}
+.mid {
+  /* border: 2px solid rgb(17, 179, 38); */
+  display: block;
+  width: 39%;
+  margin: 22px auto;
+}
+.btn {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0px 8px;
+  background-color: black;
+  color: rgb(126, 5, 5);
+  padding: 3px 14px;
+  border: 2px solid rgb(240, 238, 238);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: cadetblue;
+}
+.right {
+  /* border: 2px solid rgb(51, 8, 107); */
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: goldenrod;
+}
+.container {
+  /* border: 2px solid rgb(247, 245, 245); */
+  border-radius: 14px;
+  width: 33%;
+  margin: 100px 750px;
+  padding: 65px;
+}
+h1 {text-align: center;
+  color: lightseagreen;
+}
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 400px;
+  border: 6px solid rgb(49, 46, 47);
+border-radius: 19px;
+  margin: 2px auto;
+font-size: 16px;
+padding: 7px;
+color: chocolate;
+}
+
+
+.container button{display: block;
+width: 23%;
+margin: auto;
+background-color: salmon;
+top: 20px;
+line-height: 22px;
+
+
+}
+.container button:hover{
+background-color: rgb(36, 49, 49);
+transition: all 0.8s ease-in;
+/* transform: translate(4px); */
+transform:scale(1.1)
+}
+
+
+@media (max-width:1024px){
+.container{
+  width: 30px;
+  display:flex;}    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
